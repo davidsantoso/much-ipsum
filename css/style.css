@@ -3,10 +3,35 @@
     margin: 20px;
 }
 
-html { 
-  background: url(../img/bg.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html {
+  background-color: #f2ede0;
+}
+
+body {
+	margin: 50px 0px;
+  padding: 0px;
+	text-align:center;
+}
+
+h1 {
+  margin: 0px !important;
+}
+
+p {
+  margin: 10px !important
+}
+
+h1, p {
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+  
+.spacer {
+  margin-top: 30px;
+}  
+	
+#content {
+	width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 15px;
 }

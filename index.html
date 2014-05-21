@@ -5,15 +5,30 @@
   <title>Much Ipsum | So filler. Such text. Wow.</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
 </head>
 <body>
   <script type="text/x-handlebars">
-    <div style="margin-top: 100px;"></div>
-    <h1 align="center" style="font-size: 50px; color: ">Much Ipsum</h1>
-    <p align="center" style="font-size: 14px;">So filler. Such text. Wow. Coming soon.</p>
+    {{outlet}}
   </script>
 
   <script type="text/x-handlebars" id="index">
+  <div id="content">
+    <div class="spacer"</div>
+    
+    <div class="pure-g-r">
+      <div class="pure-u-1"><h1>Much Ipsum</h1></div>
+      <div class="pure-u-1"><p>So filler. Such text. Wow. Coming soon!</p></div>
+    </div>
+    
+    <div class="spacer"</div>
+  
+    <div class="pure-g-r">
+      <div class="pure-u-1-4"></div>
+      <div class="pure-u-1-2"><img src="img/doge.png" /></div>
+      <div class="pure-u-1-4"></div>
+    </div>
+  </div>
   </script>
 
   <script src="js/libs/jquery-1.10.2.js"></script>
