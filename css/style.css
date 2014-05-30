@@ -21,8 +21,8 @@ p {
   margin: 10px !important
 }
 
-h1, p {
-  font-family: "Comic Sans MS", cursive, sans-serif
+h1, p, a {
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
 }
   
 .spacer {
