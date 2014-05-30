@@ -35,3 +35,14 @@ h1, p {
 	text-align: center;
 	padding: 15px;
 }
+
+.button-success {
+  color: white !important;
+  border-radius: 4px !important;
+  padding: 15px 30px !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.button-success {
+  background: rgb(28, 184, 65) !important; /* this is a green */
+}
