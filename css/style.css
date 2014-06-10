@@ -1,8 +1,3 @@
-/* Put your CSS here */
-.ember-application {
-    margin: 20px;
-}
-
 html {
   background-color: #f2ede0;
 }
@@ -36,6 +31,10 @@ h1, p, a {
 	padding: 15px;
 }
 
+#text {
+  padding-bottom: 100px;
+}
+
 .button-success {
   color: white !important;
   border-radius: 4px !important;
@@ -45,4 +44,18 @@ h1, p, a {
 
 .button-success {
   background: rgb(28, 184, 65) !important; /* this is a green */
+}
+
+.icon {
+  padding: 4px;
+  font-size: 18px;
+}
+
+#footer {
+  background-color: #cba959;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0px 20px 0px !important;
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
 }
