@@ -1,14 +1,12 @@
 muchIpsum = {
   fillerText: [],
-  textDiv: $('#text'),
-  wowBtn: $('#btn'),
   
   init : function() {
     muchIpsum.setupFillerTextArray();
     
-    muchIpsum.wowBtn.click(function() {
-      textDiv.html("<p style='text-align: left;'>" + muchIpsum.fillerText[0] + "</p>");
-    });
+    $('#btn').click(function() {
+      $('#text').html("<p style='text-align: left;'>" + muchIpsum.fillerText[0] + "<br /><br />" + muchIpsum.fillerText[1] + "</p>");
+    })
   },
   
   setupFillerTextArray : function() {
