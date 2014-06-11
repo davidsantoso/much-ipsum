@@ -5,7 +5,11 @@ muchIpsum = {
     muchIpsum.setupFillerTextArray();
     
     $('#btn').click(function() {
-      $('#text').html("<p style='text-align: left;'>" + muchIpsum.fillerText[0] + "<br /><br />" + muchIpsum.fillerText[1] + "</p>");
+      $('#text').html("<p style='text-align: left;'>" 
+        + muchIpsum.fillerText[0] + "<br /><br />" 
+        + muchIpsum.fillerText[1] + "<br /><br />"
+        + muchIpsum.fillerText[2] + "<br /><br />"
+        + "</p>");
     })
   },
   
