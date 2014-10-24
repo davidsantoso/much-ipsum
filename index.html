@@ -5,66 +5,49 @@
   <title>Much Ipsum | So filler. Such text. Wow.</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/sweetalert.css">
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
-  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.4.1/css/ionicons.min.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/sweetalert.min.js"></script>
   <script src="js/muchipsum.js"></script>
 </head>
 <body>
   <div id="content">
-    <div class="pure-g-r">
-      <div class="pure-u-1">
-        <!-- AddThis Button BEGIN -->
-        <div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="left:50px;top:50px;">
-        <a class="addthis_button_facebook_like" fb:like:layout="box_count"></a>
-        <a class="addthis_button_tweet" tw:count="vertical"></a>
-        <a class="addthis_button_google_plusone" g:plusone:size="tall"></a>
-        <a class="addthis_counter"></a>
-        </div>
-        <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5388cce6682a349a"></script>
-        <!-- AddThis Button END -->
-      </div>
-    </div>
-    
     <div class="spacer"></div>
-    
+
     <div class="pure-g-r">
-      <div class="pure-u-9-24"></div>
-      <div class="pure-u-6-24"><img src="img/doge.png" /></div>
-      <div class="pure-u-9-24"></div>
+      <div class="pure-u-1-3"></div>
+      <div class="pure-u-1-3"><img id="doge-img" src="img/doge.png" /></div>
+      <div class="pure-u-1-3"></div>
     </div>
-    
+
     <div class="spacer"></div>
-    
+
     <div class="pure-g-r">
       <div class="pure-u-1"><h1>Much Ipsum</h1></div>
       <div class="pure-u-1"><p>So filler. Such text.</p></div>
     </div>
-    
+
     <hr width="300">
-    
+
     <div class="spacer"></div>
-    
+
     <div class="pure-g-r">
       <div class="pure-u-1-3"></div>
-      <div class="pure-u-1-3"><a class="button-success pure-button" id="btn">WOW</a></div>
+      <div class="pure-u-1-3"><input type="text"><a class="button-success pure-button" id="btn">WOW</a></div>
       <div class="pure-u-1-3"></div>
-    </div>
-    
+    <div>
+
     <div class="spacer"></div>
-    
+
     <div class="pure-g-r">
       <div class="pure-u-1-3"></div>
       <div class="pure-u-1-3" id="text"></div>
       <div class="pure-u-1-3"></div>
     </div>
   </div>
-  
-  <div id="footer">
-    <div class="ion-code"></div> with <div class="ion-ios7-heart"></div> in Durham, NC.
-  </div>
-  
+
   <script type="text/javascript">
     muchIpsum.init();
   </script>
